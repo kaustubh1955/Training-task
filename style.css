@@ -1,0 +1,172 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  padding-top: 20px;
+}
+.dotd{
+	margin-left: 120px;
+	position:absolute ;
+	top:642px;
+}
+.icons{
+	position: absolute;
+	left: 515px;
+	bottom: 50px;
+}
+.type-text{
+  height: 27px;
+  width: 80px;
+  color: #FFFFFF;
+  font-family: "Banana Grotesk";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  line-height: 27px;
+}
+.lorem-ipsum-is-simpl {
+  height: 81px;
+  width: 220px;
+  color: #FFE8DF;
+  font-family: "Banana Grotesk";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+.first{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin-top:0px;
+}
+.second{
+	position:absolute;
+	top:0px;
+}
+.bullets{
+	position: absolute;
+	height: 153px;
+  	width: 220px;
+	top: 497px;
+	margin-left: 110px;
+}
+#menu{
+	word-spacing: 20px;
+}
+.men{
+	text-decoration: none;
+	height: 27px;
+	width: 26px;
+	color: #F7F7F7;
+	font-family: "Banana Grotesk";
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+.tab{
+	position: absolute;
+	margin-left: 451px;
+	margin-top: 33px;
+	height: 54px;
+  	width: 210px;  
+}
+.buttons {
+  height: 80px;
+  width: 379px;
+}
+.lorem{  
+	height: 162px;
+	width: 571px;
+	color: #3E3E3E;
+	font-family: "Banana Grotesk Medium";
+	font-size: 42px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 54px;
+}
+.lorem2{
+	  height: 108px;
+  width: 440px;
+  color: #6D6D6D;
+  font-family: "Banana Grotesk";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+.Lorem{
+	margin-left: 60px;
+	margin-top: 250px;
+}
+.catndog{
+	margin-top:33px;
+	margin-left: 41px;
+	width: 200px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FEE7DE;
+}
+
+/* Control the right side */
+.right {
+	right: 0;
+}
+
+
+.first{
+	background-image: url('Background2.png');
+	background-size: cover;
+}
+.second{
+	background-image: url('Background.png');	
+	background-size:cover;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	background-color: #FEE7DE;
+	cursor: pointer;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
